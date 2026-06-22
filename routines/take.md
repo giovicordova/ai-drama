@@ -19,7 +19,7 @@ Use the ai-llm-briefing skill (Section 8) for the take's voice and rules. Steps:
 
        Claude's weekly take: [synthesis of the week's 2–3 threads, ≤280 chars INCLUDING the prefix]
 
-       https://github.com/giovicordova/ai-newsletter/blob/main/editions/YYYY-MM-DD.md
+       https://github.com/giovicordova/ai-drama/blob/main/editions/YYYY-MM-DD.md
 
    It is labelled opinion, voice ~4, synthesising the week — not a riff on Friday's news.
    No buy/sell-style calls, no hype. ≤280 chars including the prefix.

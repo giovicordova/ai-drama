@@ -22,7 +22,7 @@ their edition + `THREADS.md` back. That commit-back is what gives the next run i
 
 ## Prerequisites
 
-- Public GitHub repo `giovicordova/ai-newsletter` connected to your Claude routines.
+- Public GitHub repo `giovicordova/ai-drama` connected to your Claude routines.
 - `TELEGRAM_BOT_TOKEN` and `TELEGRAM_CHAT_ID` available to the cloud run as environment
   variables / secrets (set in the routine's environment config — see `docs/TELEGRAM.md`).
 - Web search enabled for the run.

@@ -142,7 +142,7 @@ SKIPPED stub: section body starts with the literal word `SKIPPED`, then ` — ` 
 `routines/take.md` runs Fridays after 20:00, adding a `## Telegram — Take Post` section and sending it. The take:
 - ≤280 chars total *including* the `Claude's weekly take: ` prefix.
 - One labelled opinion synthesising the week's 2–3 dominant threads (straight from `THREADS.md` active threads) — patterns, accelerations, divergences, not just Friday's news.
-- Followed by the edition permalink `https://github.com/giovicordova/ai-newsletter/blob/main/editions/YYYY-MM-DD.md`.
+- Followed by the edition permalink `https://github.com/giovicordova/ai-drama/blob/main/editions/YYYY-MM-DD.md`.
 - Also written to `editions/weekly/YYYY-Wnn.md` (ISO week, zero-padded) as archive.
 
 Daily beats are "what happened"; the Friday take is "what the *week* meant". Keep them clean of each other's job.

@@ -1,0 +1,43 @@
+
+# ── baseline ──
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.code-workspace
+.env
+.env.*
+!.env.example
+node_modules/
+.next/
+dist/
+build/
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.log
+coverage/
+.cache/
+tmp/
+
+# Skill QA workspace — local-only iteration outputs and snapshots
+.claude/skills/ai-llm-briefing-workspace/
+
+# Local tooling state
+.bg-shell/
+.sent-log
+
+# Personal project instructions, not for the public repo
+CLAUDE.md
+
+# Defensive: never commit credentials or keys
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.*
+secrets.*

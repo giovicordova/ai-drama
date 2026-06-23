@@ -1,4 +1,4 @@
-# Tracked Threads — last updated 2026-06-23 07:00 Europe/Rome
+# Tracked Threads — last updated 2026-06-23 13:00 Europe/Rome
 
 Continuity state for the AI/LLM briefing. Read first, rewritten last, on every run
 (including skips). Committed to the repo so cloud runs share memory. Keep it small.
@@ -41,8 +41,8 @@ Fields per thread:
 - **One-line state:** On 22 Jun OpenAI expanded its Daybreak security platform (launched 11 May) with a cyber-specialised model, GPT-5.5-Cyber, plus Codex Security (an agentic harness that runs models inside repos to find/validate/patch vulnerabilities) and "Patch the Planet" (an open-source-maintainer program with Trail of Bits). Reported benchmark gains for GPT-5.5-Cyber (85.6% CyberGym vs 81.8% GPT-5.5; 39.5% ExploitGym; 69.8% SEC-bench Pro) remain NON-verified from primary: openai.com 403s to automated fetch on every relevant page (incl. /index/gpt-5-5-with-trusted-access-for-cyber/), so the numbers come only from non-allowlisted blogs. TechCrunch (allowlisted Tier-2, openable) confirms the broader launch but only the Patch the Planet / Codex Security half — it does not mention GPT-5.5-Cyber or any benchmark. Thematically mirrors T1: the "read a codebase, flag flaws" capability that got Fable 5 pulled is now a shipped OpenAI product.
 - **Watch for:** an openable allowlisted primary (openai.com page or model card) confirming GPT-5.5-Cyber + its benchmark numbers; OR a Tier-2 allowlisted outlet carrying the model-release framing (find/patch tooling, not a "best at X" superlative) that I can open. Either clears the gate as a model release → post then (ADVANCE).
 - **Receipts:**
-  - https://openai.com/news/rss.xml (RSS confirms the 22 Jun Daybreak / GPT-5.5-Cyber / Codex Security items; primary pages 403, benchmarks blog-only)
-  - https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/ (Patch the Planet + Trail of Bits; no model/benchmark)
+  - https://openai.com/news/rss.xml (RSS confirms the 22 Jun Daybreak / GPT-5.5-Cyber / Codex Security items; the live post `openai.com/index/daybreak-securing-the-world` still 403s to fetch as of 23 Jun 13:00; benchmarks blog-only)
+  - https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/ (Patch the Planet + Trail of Bits; no model/benchmark; TechCrunch's GPT-5.5-Cyber coverage is the April rollout, not the 22 Jun full release)
 
 ---
 

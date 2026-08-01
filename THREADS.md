@@ -1,4 +1,4 @@
-# Tracked Threads — last updated 2026-08-01 07:00 Europe/Rome
+# Tracked Threads — last updated 2026-08-01 13:00 Europe/Rome
 
 Continuity state for the AI/LLM briefing. Read first, rewritten last, on every run
 (including skips). Committed to the repo so cloud runs share memory. Keep it small.
@@ -79,13 +79,16 @@ Fields per thread:
 
 ### T9 — AI for mathematics / autonomous proof (frontier models producing novel proofs)
 - **Status:** developing (opened 12 Jul 2026)
-- **Last material update:** 2026-07-12 (OpenAI published a proof of the Cycle Double Cover Conjecture credited to GPT-5.6 Sol Ultra)
-- **Last POSTED:** 2026-07-12 20:00 (Cycle Double Cover Conjecture proof credited to GPT-5.6 Sol Ultra)
-- **One-line state:** On ~12 Jul OpenAI posted two PDFs on `cdn.openai.com` — a proof ("A Proof of the Cycle Double Cover Conjecture") and the prompt used — crediting the proof entirely to GPT-5.6 Sol Ultra. Proof PDF: "The proof in this note is entirely due to GPT 5.6 Sol Ultra"; Theorem 1.1 "Every finite bridgeless undirected graph has a cycle double cover"; prompt PDF "up to 64 concurrent agents available."
-- **Watch for:** an independent/peer expert verdict on the proof's correctness carried by an allowlisted primary (a tweet/HN post is hard-banned §5); an OpenAI blog/index page framing it; a further AI-generated proof of another named open problem; or Sol Ultra confirmed as a publicly priced tier. Don't re-post the bare proof drop.
+- **Last material update:** 2026-08-01 (OpenAI published "Ten Advances in Mathematics and Theoretical Computer Science", ten results "obtained by an internal OpenAI model")
+- **Last POSTED:** 2026-08-01 13:00 (ADVANCE — OpenAI published a paper presenting ten new math + TCS results credited to an unnamed internal model, incl. a disproof of Connes's rigidity conjecture on von Neumann algebras and an improved high-dimensional sphere-packing bound; quote "We present a collection of results obtained by an internal OpenAI model, spanning mathematics and theoretical computer science". Anchored to the openable `cdn.openai.com/pdf/ten-proofs-oai.pdf`.) Prior: 2026-07-12 20:00 (Cycle Double Cover Conjecture proof credited to GPT-5.6 Sol Ultra).
+- **One-line state:** On ~12 Jul OpenAI posted a proof of the Cycle Double Cover Conjecture on `cdn.openai.com`, credited entirely to GPT-5.6 Sol Ultra. On 1 Aug OpenAI published "Ten Advances in Mathematics and Theoretical Computer Science" (PDF `cdn.openai.com/pdf/ten-proofs-oai.pdf`; companion Lean repo `github.com/openai/ten-proofs`): ten results the abstract says were "obtained by an internal OpenAI model" — high-dimensional sphere packing (exact Cohn–Elkies LP strength), binary/spherical codes, an explicit non-sofic group, a disproof of Connes's rigidity conjecture (property-(T) groups with the same group von Neumann algebra), arithmetic-circuit lower bounds for the permanent, quantum parallel repetition, closest-vector-problem hardness, Ehrhart's volume conjecture, multicolor Ramsey Rk(3)=k^Θ(k), and disproofs of Erdős–Simonovits compactness + an Erdős degeneracy conjecture. The paper does NOT name the model; "Astra"/"next major model" framing + the ~$2,000-at-Sol-rates cost live only on the openai.com/index blog (403s) and a Bubeck tweet (hard-banned). Lean-4 certificates + independent checkability live on the GitHub repo README. No independent third-party verification of the proofs yet.
+- **Watch for:** an independent/peer expert verdict on any of the ten proofs' correctness carried by an allowlisted primary (a tweet/HN post is hard-banned §5); the openai.com/index blog rendering to the fetcher (would let the "Astra"/cost framing ship); a further AI-generated proof of another named open problem; or Sol/Astra tiers confirmed as publicly priced. Don't re-post the bare ten-proofs drop or the 12 Jul CDC proof.
 - **Receipts:**
-  - https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf (proof PDF — Theorem 1.1, "Statement of AI use" attribution to GPT 5.6 Sol Ultra — POSTED 12 Jul 20:00)
-  - https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_prompt.pdf (prompt PDF — "up to 64 concurrent agents")
+  - https://cdn.openai.com/pdf/ten-proofs-oai.pdf (1 Aug — "Ten Advances in Mathematics and Theoretical Computer Science", abstract "results obtained by an internal OpenAI model" + the ten named results incl. Connes disproof & sphere-packing bound — OPENABLE allowlisted primary, ADVANCE POSTED 1 Aug 13:00)
+  - https://github.com/openai/ten-proofs (1 Aug — companion repo, "Lean 4 formalizations of the results … by OpenAI", independently checkable; does not name the model — OPENABLE)
+  - https://openai.com/index/ten-advances-in-mathematics/ (1 Aug — blog naming "Astra"/next major model + cost framing; 403s to automated fetch)
+  - https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf (12 Jul — proof PDF, "Statement of AI use" attribution to GPT 5.6 Sol Ultra — POSTED 12 Jul 20:00)
+  - https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_prompt.pdf (12 Jul — prompt PDF, "up to 64 concurrent agents")
 
 ### T8 — Meta frontier / agentic-coding line (Muse Spark, Meta Superintelligence Labs)
 - **Status:** developing (opened 10 Jul 2026)

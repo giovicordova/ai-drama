@@ -1,4 +1,4 @@
-# Tracked Threads — last updated 2026-08-01 20:00 Europe/Rome
+# Tracked Threads — last updated 2026-08-02 07:00 Europe/Rome
 
 Continuity state for the AI/LLM briefing. Read first, rewritten last, on every run
 (including skips). Committed to the repo so cloud runs share memory. Keep it small.
@@ -59,12 +59,13 @@ Fields per thread:
 
 ### T11 — EU AI Act implementation / Article 50 transparency (labelling regime)
 - **Status:** developing (opened 21 Jul 2026)
-- **Last material update:** 2026-07-20 (European Commission published its Article 50 transparency guidelines)
-- **Last POSTED:** 2026-07-21 13:00 (guidelines published, two weeks before the obligations take effect 2 Aug)
-- **One-line state:** On 20 Jul 2026 the European Commission published its guidelines on the Article 50 transparency obligations for providers and deployers of certain AI systems — the compliance playbook for obligations that become applicable on 2 Aug 2026. Providers must design systems to disclose AI interaction and add machine-readable marks on AI-generated/manipulated content; deployers must label deepfakes and AI-generated text on public-interest matters.
-- **Watch for:** the 2 Aug 2026 Article 50 obligations actually taking effect paired with an openable primary (Commission enforcement note or first action); the linked Code of Practice on marking AI-generated content being finalised/signed; a named enforcement/fine action; or further Commission guidance/delegated acts. Future dates alone don't re-clear.
+- **Last material update:** 2026-08-02 (Article 50 transparency obligations take effect + AI Act enforcement begins)
+- **Last POSTED:** 2026-08-02 07:00 (ADVANCE — the Article 50 transparency rules take effect today, 2 Aug: chatbots must disclose they're AI, AI-generated/edited images/video/audio must be labelled, AI-generated/altered content must carry machine-readable marks; the Commission's AI Office + national authorities begin enforcing the AI Act. Anchored to the fresh 31 Jul Commission news item, distinct from the 20 Jul guidelines POST.) Prior: 2026-07-21 13:00 (guidelines published, two weeks before the obligations take effect 2 Aug).
+- **One-line state:** On 20 Jul 2026 the European Commission published its Article 50 transparency guidelines — the compliance playbook for obligations applicable 2 Aug 2026. On 31 Jul the Commission published "Commission starts enforcing AI Act rules and new transparency requirements on 2 August": from 2 Aug the AI Office + national authorities "will begin enforcing" the AI Act, and the new transparency rules "start to apply" — chatbots must tell users they're dealing with AI not a human, deepfakes (AI edited/generated images, video, audio) must be labelled, and AI-generated/altered content must carry machine-readable marks so it can be detected. Obligations now in force as of 2 Aug.
+- **Watch for:** a named first enforcement action / complaint outcome / fine under the now-applicable Article 50 regime (openable EU primary); the Code of Practice on Transparency of AI-generated Content being finalised/signed (was ~190 signatory orgs by end-Jul); a national market-surveillance authority's first move; or further Commission guidance/delegated acts. Don't re-post the take-effect itself — it's now shipped.
 - **Receipts:**
-  - https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems (20 Jul — press release — OPENABLE, POSTED 21 Jul 13:00)
+  - https://digital-strategy.ec.europa.eu/en/news/commission-starts-enforcing-ai-act-rules-and-new-transparency-requirements-2-august (31 Jul — "From 2 August 2026, the European Commission's AI Office, together with national authorities, will begin enforcing the Artificial Intelligence (AI) Act"; transparency rules "start to apply"; chatbots-disclose / deepfakes-labelled / machine-readable-marks — OPENABLE allowlisted primary, ADVANCE POSTED 2 Aug 07:00)
+  - https://digital-strategy.ec.europa.eu/en/news/commission-publishes-guidelines-transparency-obligations-providers-and-deployers-certain-ai-systems (20 Jul — guidelines press release — OPENABLE, POSTED 21 Jul 13:00)
   - https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems (20 Jul — the guidelines document)
 
 ### T10 — Chinese open-weights frontier line (Moonshot AI / Kimi)

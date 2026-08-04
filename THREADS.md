@@ -1,4 +1,4 @@
-# Tracked Threads — last updated 2026-08-03 20:00 Europe/Rome
+# Tracked Threads — last updated 2026-08-04 07:00 Europe/Rome
 
 Continuity state for the AI/LLM briefing. Read first, rewritten last, on every run
 (including skips). Committed to the repo so cloud runs share memory. Keep it small.
@@ -14,6 +14,15 @@ Fields per thread:
 ---
 
 ## Active threads
+
+### T16 — Alibaba / Qwen frontier line (Qwen-Max)
+- **Status:** developing (opened 4 Aug 2026)
+- **Last material update:** 2026-08-02 (Qwen3.8-Max launch post on qwen.ai; llm-stats tracks it as released ~Sun 2 Aug)
+- **Last POSTED:** 2026-08-04 07:00 (POST — Alibaba's Qwen team released Qwen3.8-Max, scaling to 2.4 trillion parameters; the blog bills it "a new bar for coding and cowork". Minimal beat: the qwen.ai SPA won't render to the fetcher and no allowlisted Tier-2 has it, so only the model/existence, the 2.4T figure and the verbatim "coding and cowork" framing were shipped — benchmark superiority and availability channel dropped.)
+- **One-line state:** On ~2 Aug 2026 Alibaba's Qwen team published `qwen.ai/blog?id=qwen3.8` — "Qwen3.8-Max: A New Bar for Coding and Cowork". qwen.ai-scoped search confirms "Qwen 3.8-Max scales to 2.4 trillion parameters and delivers comprehensive improvements across coding and work capabilities". Non-allowlisted secondary (Neowin, officechai) reports: MoE 2.4T total / 95B active, available via QwenCloud with open weights on HF+ModelScope "next week", "more than 10 days" continuous autonomous software development, and beats GPT-5.6 Sol + Claude Fable 5 on 7 evals (CoWorkBench 74.8 vs 71.5, WorkSpaceBench 67.7 vs 65.6, JobBench 53.4 vs 45.4, WideSearch 81.9) — none shipped (unverified against an allowlisted primary; the SPA doesn't render the table). Distinct actor from Moonshot/Kimi (T10) and DeepSeek (T15).
+- **Watch for:** the Qwen3.8-Max open weights actually landing on `huggingface.co/Qwen` (no repo yet as of 4 Aug — would let a downloadable-weights beat ship); an **independent** benchmark from an allowlisted specialist (e.g. Artificial Analysis Intelligence Index) that fixes standing vs GPT-5.6 Sol / Claude Fable 5; the qwen.ai SPA / an allowlisted Tier-2 rendering the benchmark table so the "beats Sol + Fable 5 on 7 evals" claim becomes shippable; or a material pricing/availability change. Don't re-post the bare 2 Aug launch or the 2.4T figure.
+- **Receipts:**
+  - https://qwen.ai/blog?id=qwen3.8 (~2 Aug — "Qwen3.8-Max: A New Bar for Coding and Cowork"; allowlisted primary but a JS SPA that renders only "Qwen" to the fetcher — confirmed via qwen.ai-scoped WebSearch: "Qwen 3.8-Max scales to 2.4 trillion parameters…" — POSTED 4 Aug 07:00 via the T7/Grok SPA-via-search precedent)
 
 ### T15 — DeepSeek open-weights frontier line
 - **Status:** developing (opened 1 Aug 2026)

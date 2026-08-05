@@ -1,4 +1,4 @@
-# Tracked Threads — last updated 2026-08-05 07:00 Europe/Rome
+# Tracked Threads — last updated 2026-08-05 13:00 Europe/Rome
 
 Continuity state for the AI/LLM briefing. Read first, rewritten last, on every run
 (including skips). Committed to the repo so cloud runs share memory. Keep it small.
@@ -114,11 +114,12 @@ Fields per thread:
 
 ### T7 — xAI / Grok frontier line (SpaceXAI)
 - **Status:** developing (opened 09 Jul 2026)
-- **Last material update:** 2026-07-08 (Grok 4.5 released)
-- **Last POSTED:** 2026-07-09 20:00 (Grok 4.5 release)
-- **One-line state:** On 08 Jul xAI — branded SpaceXAI — released Grok 4.5, available that day on the xAI API, Grok Build, Cursor, and the SpaceXAI console; not yet available in the EU. Primary reports SWE-Bench Pro 64.7%, Terminal-Bench 2.1 83.3%; pricing $2/M input + $6/M output; trained across tens of thousands of Nvidia GB300 GPUs. Musk framed it as "Opus-class".
-- **Watch for:** independent third-party benchmarks; EU availability; a higher tier or a Grok 4.5 Fast/Heavy variant; a published model card; or a material pricing/capability change. Musk-tweet superlatives with no number don't clear. Note: x.ai/news 403s to the fetcher but resolves via domain-scoped search.
+- **Last material update:** 2026-08-05 (Grok Voice Think Fast 2.0 released; grok-voice-latest routes to it from 5 Aug)
+- **Last POSTED:** 2026-08-05 13:00 (POST — xAI released Grok Voice Think Fast 2.0, a speech-to-speech voice model that reasons in the background while speaking (no added latency); grok-voice-latest routes to it from today, 5 Aug. Self-reported transcription: 1.5–2.0× accuracy over Deepgram Nova 3 + ElevenLabs Scribe v2 across 24 languages, ~10× in noisy audio; independent results pending. Anchored to the allowlisted x.ai/news primary via the SPA/domain-scoped-search precedent — x.ai/news 403s the fetcher.) Prior: 2026-07-09 20:00 (Grok 4.5 text-line release).
+- **One-line state:** Two strands. (A) Text line — on 08 Jul xAI (branded SpaceXAI) released Grok 4.5 on the xAI API / Grok Build / Cursor / SpaceXAI console (not yet EU); self-reported SWE-Bench Pro 64.7%, Terminal-Bench 2.1 83.3%; $2/M in + $6/M out; trained on tens of thousands of Nvidia GB300 GPUs; Musk framed it "Opus-class". (B) Voice line — on 5 Aug xAI released Grok Voice Think Fast 2.0, "xAI's most intelligent voice model", speech-to-speech, doing background reasoning "with no impact on response latency"; grok-voice-latest routes to it from 5 Aug. Self-reported transcription accuracy 1.5–2.0× over Deepgram Nova 3 + ElevenLabs Scribe v2 across thousands of short phrases in 24 languages (1.4× over Think Fast 1.0), ~10× in noisy settings; reasoning enabled by default (effort "high"). No independent eval yet on either strand.
+- **Watch for:** an **independent** third-party benchmark for either strand (text: SWE-bench/Terminal-Bench; voice: an independent ASR/word-error-rate number confirming the transcription claim); EU availability; a higher text tier or a Grok 4.5 Fast/Heavy variant; a Grok Voice tier/pricing/API-availability change; or a published model card. Musk-tweet superlatives with no number don't clear. Don't re-post the 8 Jul Grok 4.5 release or the 5 Aug Grok Voice 2.0 release. Note: x.ai/news 403s to the fetcher but resolves via domain-scoped search.
 - **Receipts:**
+  - https://x.ai/news/grok-voice-think-fast-2 (5 Aug — "Introducing Grok Voice Think Fast 2.0", "xAI's most intelligent voice model"; "1.5–2.0× improvement relative to Deepgram Nova 3 and ElevenLabs Scribe v2" across 24 languages, "~10× in noisy settings"; "grok-voice-latest will route to this model starting August 5, 2026" — ALLOWLISTED primary, 403s the fetcher → shipped via x.ai-scoped search verbatim, POSTED 5 Aug 13:00)
   - https://x.ai/news/grok-4-5 (08 Jul — release, benchmarks, pricing, GB300 training — POSTED 09 Jul 20:00)
   - https://techcrunch.com/2026/07/08/spacexai-releases-grok-4-5-which-elon-describes-as-an-opus-class-model/ (Tier-2 corroboration; Musk "Opus-class")
 

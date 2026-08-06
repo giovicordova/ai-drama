@@ -1,4 +1,4 @@
-# Tracked Threads — last updated 2026-08-06 13:00 Europe/Rome
+# Tracked Threads — last updated 2026-08-06 20:00 Europe/Rome
 
 Continuity state for the AI/LLM briefing. Read first, rewritten last, on every run
 (including skips). Committed to the repo so cloud runs share memory. Keep it small.
@@ -105,13 +105,14 @@ Fields per thread:
 
 ### T8 — Meta frontier / agentic-coding line (Muse Spark, Meta Superintelligence Labs)
 - **Status:** developing (opened 10 Jul 2026)
-- **Last material update:** 2026-07-09 (Muse Spark 1.1 released + Meta Model API opened)
-- **Last POSTED:** 2026-07-10 13:00 (Muse Spark 1.1 release)
-- **One-line state:** On 09 Jul Meta released Muse Spark 1.1, a multimodal reasoning model for agentic tasks (gains in tool/computer use, coding, multimodal), 1M-token context. Available in "Thinking" mode in the Meta AI app / meta.ai; the new Meta Model API is in public preview. Point iteration of Muse Spark (base launched Apr 2026, Meta Superintelligence Labs).
-- **Watch for:** a named benchmark figure from the Muse Spark 1.1 Evaluation Report or an independent third-party number (SWE-bench Verified / Terminal-Bench / coding-agent index); open-weights availability; a higher tier or Muse Spark 2; or a material pricing/availability change (Model API leaving preview / EU availability). Vague "major gains" with no number doesn't clear.
+- **Last material update:** 2026-08-05 (Muse Spark 1.2 + Muse Code released; Artificial Analysis independent eval — AA Intelligence Index 54)
+- **Last POSTED:** 2026-08-06 20:00 (ADVANCE — Meta released Muse Spark 1.2 (5 Aug), its third model in four months; independent evaluator Artificial Analysis scores it 54 on the AA Intelligence Index — up 3 from Muse Spark 1.1's 51, tied with xAI's Grok 4.5 for third among US labs, behind Claude Opus 5 (61) / Claude Fable 5 (60) / GPT-5.6 Sol (59) / Kimi K3 (57); pricing unchanged $1.25/$4.25 per M. Anchored to the OPENABLE AA article — the first independent number for the Muse Spark line, crossing the prior watch-for.) Prior: 2026-07-10 13:00 (Muse Spark 1.1 release).
+- **One-line state:** On 09 Jul Meta released Muse Spark 1.1 (AA Intelligence Index 51). On 5 Aug Meta (Meta Superintelligence Labs) released **Muse Spark 1.2** — its third release in four months — plus **Muse Code**, a terminal coding agent (beta), co-trained with the model; Meta primary `research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2`. First **independent** number: Artificial Analysis (given early access for benchmarking) scores Muse Spark 1.2 **54** on the AA Intelligence Index — +3 over Muse Spark 1.1 (51), +11 over Muse Spark 1.0 (43, April), effectively tied with GPT-5.5 (55) and Grok 4.5 (54), giving Meta a tie with SpaceXAI/xAI for **third among US labs**, narrowly behind Claude Opus 5 (61) / Claude Fable 5 (60) / GPT-5.6 Sol (59) / Kimi K3 (57); pricing unchanged $1.25/$4.25 per M ($0.40 per Index task). Meta's self-reported coding numbers (Terminal-Bench 2.1 82.9, DeepSWE v1.1 59.3, Muse Code 82.9) live only on the Meta blog + non-allowlisted secondary and lack an independent Terminal-Bench leaderboard entry — **unshipped**.
+- **Watch for:** an independent coding-agent benchmark (Terminal-Bench / SWE-bench Verified) confirming the self-reported Muse Code / Muse Spark 1.2 numbers from an allowlisted specialist; Muse Code leaving beta / a pricing move; open-weights availability; a higher tier or Muse Spark 2. Don't re-post the 5 Aug release or the bare AA Index 54.
 - **Receipts:**
-  - https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/ (09 Jul — release + Model API public preview — OPENABLE, POSTED 10 Jul 13:00)
-  - https://ai.meta.com/static-resource/muse-spark-1-1-evaluation-report (Evaluation Report PDF — did not extract to the fetcher)
+  - https://artificialanalysis.ai/articles/muse-spark-1-2 (5 Aug — AA independent eval: "Muse Spark 1.2 scores 54 on the Artificial Analysis Intelligence Index", "up 3 points from Muse Spark 1.1 (51)", "putting Meta next to SpaceXAI in a tie for third place amongst US labs", "narrowly behind … Claude Opus 5 (max, 61), Claude Fable 5 (max w/ fallback, 60), GPT-5.6 Sol (max, 59), and Kimi K3 (max, 57)", "Meta's unchanged $1.25/$4.25 per 1M token pricing" — OPENABLE allowlisted specialist primary, ADVANCE POSTED 6 Aug 20:00)
+  - https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2 (5 Aug — Meta primary: "Introducing Muse Code and Muse Spark 1.2", terminal coding agent co-trained with the model — OPENABLE allowlisted primary)
+  - https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/ (09 Jul — Muse Spark 1.1 release + Model API public preview — OPENABLE, POSTED 10 Jul 13:00)
 
 ### T7 — xAI / Grok frontier line (SpaceXAI)
 - **Status:** developing (opened 09 Jul 2026)

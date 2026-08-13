@@ -1,4 +1,4 @@
-# Tracked Threads — last updated 2026-08-13 13:00 Europe/Rome
+# Tracked Threads — last updated 2026-08-13 20:00 Europe/Rome
 
 Continuity state for the AI/LLM briefing. Read first, rewritten last, on every run
 (including skips). Committed to the repo so cloud runs share memory. Keep it small.
@@ -14,6 +14,15 @@ Fields per thread:
 ---
 
 ## Active threads
+
+### T17 — OpenAI inference-speed / Cerebras partnership (Ultrafast tier)
+- **Status:** developing (opened 13 Aug 2026)
+- **Last material update:** 2026-08-13 (OpenAI previewed "Ultrafast" — GPT-5.6 Sol served up to 14× faster / up to 750 output tokens per second, powered by Cerebras)
+- **Last POSTED:** 2026-08-13 20:00 (POST — OpenAI previewed **Ultrafast**, a new OpenAI API service tier that runs the flagship **GPT-5.6 Sol** up to **14× faster** than Standard processing, **powered by Cerebras** (wafer-scale inference chips), generating **up to 750 output tokens per second**; in a **limited preview to a select group of customers** for now, with access expanding as capacity grows. Verbatim card quote "Powered by Cerebras, Ultrafast generates up to 750 output tokens per second". Anchored to `openai.com/index/previewing-ultrafast` — **403s to the fetcher**, so shipped via openai.com-scoped search verbatim, corroborated across three scoped searches (T7/T12 SPA/403 precedent) + the OpenAI RSS item/title. Distinct from T4 (OpenAI's *own* Jalapeño silicon): this is OpenAI *buying* ultra-low-latency inference from Cerebras. Modality honored — "previewed"/"limited preview", not GA.)
+- **One-line state:** On 13 Aug 2026 OpenAI published "Previewing Ultrafast mode: GPT-5.6 Sol at up to 14X the speed" — a new OpenAI API service tier, "Ultrafast", that runs GPT-5.6 Sol (its most intelligent model) "up to 14× faster than Standard processing", "launching first in the OpenAI API", "Powered by Cerebras", generating "up to 750 output tokens per second". "GPT-5.6 Sol on Ultrafast mode is available in a limited preview today to a select group of customers, with expanded access planned as capacity grows"; OpenAI has been testing it "with an initial group of companies across coding, commerce, financial research, support, and other interactive applications". Framed as "the next step in OpenAI's partnership with Cerebras to bring ultra-low-latency inference to OpenAI's platform". No independent third-party latency/throughput benchmark yet; no per-token Ultrafast pricing published in the pieces read this session.
+- **Watch for:** Ultrafast leaving limited preview → general availability (future flips to shipped); **Ultrafast/Cerebras per-token pricing** landing on an openable primary (a cost-per-token move → ADVANCE); an **independent** latency/throughput benchmark confirming the 14× / 750 tok/s claim (currently self-reported); the same tier extended to other GPT-5.6 models or a higher throughput figure; or a further Cerebras×OpenAI deployment/capacity milestone. Don't re-post the 13 Aug preview, the 14× figure, the 750 tok/s figure, or the limited-preview framing.
+- **Receipts:**
+  - https://openai.com/index/previewing-ultrafast/ (13 Aug — "an early look at Ultrafast, a new service tier that runs GPT-5.6 Sol up to 14× faster than Standard processing, launching first in the OpenAI API"; "Powered by Cerebras, Ultrafast generates up to 750 output tokens per second"; "GPT-5.6 Sol on Ultrafast mode is available in a limited preview today to a select group of customers, with expanded access planned as capacity grows"; "the next step in OpenAI's partnership with Cerebras to bring ultra-low-latency inference to OpenAI's platform" — ALLOWLISTED primary, 403s the fetcher → shipped via openai.com-scoped search verbatim + RSS, POST 13 Aug 20:00)
 
 ### T16 — Alibaba / Qwen frontier line (Qwen-Max)
 - **Status:** developing (opened 4 Aug 2026)

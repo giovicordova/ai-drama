@@ -1,4 +1,4 @@
-# Tracked Threads — last updated 2026-08-14 07:00 Europe/Rome
+# Tracked Threads — last updated 2026-08-14 13:00 Europe/Rome
 
 Continuity state for the AI/LLM briefing. Read first, rewritten last, on every run
 (including skips). Committed to the repo so cloud runs share memory. Keep it small.
@@ -14,6 +14,17 @@ Fields per thread:
 ---
 
 ## Active threads
+
+### T18 — Z.ai / GLM frontier coding line (Zhipu)
+- **Status:** developing (opened 14 Aug 2026)
+- **Last material update:** 2026-08-14 (GLM-5.3 released — available to GLM Coding Plan users; self-reported CyberGym 84.5%)
+- **Last POSTED:** 2026-08-14 13:00 (POST — Z.ai released **GLM-5.3**, its latest flagship coding model, **now available to all GLM Coding Plan users**, built by **post-training GLM-5.2** (same base model). The distinctive hook is offensive security: self-reported **CyberGym 84.5%**, narrowly above **Anthropic's Mythos 5 (83.8%)** and **OpenAI's GPT-5.6 Sol (83.6%)** — a Chinese lab reporting a cyber edge over two US frontier models (inverts the usual T12 direction). Verbatim quote "GLM-5.3 scores 84.5% on CyberGym, slightly outperforming Mythos 5 at 83.8% and GPT-5.6 Sol at 83.6%". Anchored to the allowlisted `z.ai/blog/glm-5.3` primary — a JS SPA that returns empty to the fetcher, so shipped via z.ai-scoped search verbatim + the `docs.z.ai/guides/llm/glm-5.3` overview that RENDERS (per T7/T12/T16 SPA precedent). Modality honored — "now available to GLM Coding Plan users" is present-true; the standalone **API is "coming soon"** and **no open weights on HF yet**, both kept out; a hard-banned aggregator's "gated-for-security / trusted-access" framing was unconfirmable on any z.ai primary and dropped.)
+- **One-line state:** On 14 Aug 2026 Z.ai (Zhipu AI) released GLM-5.3, "its latest flagship model, delivering major advances in complex software engineering and agent tasks", available now to GLM Coding Plan users (standalone API "coming soon"; **no open-weights repo on `huggingface.co/zai-org` yet** — newest there is GLM-5.2, 16 Jun; GLM-5/5.1/5.2 were all open-weights, so 5.3 being product-only so far is notable). Built by post-training GLM-5.2 (same base weights). Self-reported card numbers: **CyberGym 84.5%** (vs Mythos 5 83.8% / GPT-5.6 Sol 83.6%), Terminal-Bench 3.0 4.6→28.3, DeepSWE v1.1 46.2→66.9, ExploitBench 24.4→54.4, Agents' Last Exam 23.8→28.5 — **no independent third-party eval yet**. Blog title framing: "Frontier Coding with Emergent Cyber Capabilities." Distinct actor from DeepSeek (T15), Qwen (T16), Moonshot/Kimi (T10).
+- **Watch for:** an **independent** benchmark of GLM-5.3 (AA / a named coding or cyber leaderboard) that changes standing (the 84.5% CyberGym + Terminal-Bench/DeepSWE numbers are self-reported); the **GLM-5.3 open weights landing on `huggingface.co/zai-org`** (all prior GLM releases were open-weights — 5.3 is product-only so far → an open-weights beat); the standalone **GLM-5.3 API leaving "coming soon" → GA with pricing** (a cost/availability move → ADVANCE); a **primary** Z.ai statement actually limiting/gating the cyber capability (would confirm the dropped aggregator "trusted-access" framing); or a higher tier / new base model. Don't re-post the 14 Aug release, the CyberGym 84.5%, or the self-reported coding numbers.
+- **Receipts:**
+  - https://z.ai/blog/glm-5.3 (14 Aug — "GLM-5.3: Frontier Coding with Emergent Cyber Capabilities"; the flagship-release announcement — ALLOWLISTED lab primary but a JS SPA that returns empty to the fetcher → shipped via z.ai-scoped WebSearch verbatim, POST 14 Aug 13:00)
+  - https://docs.z.ai/guides/llm/glm-5.3 (14 Aug — Z.ai developer-docs overview, RENDERS to the fetcher: "GLM-5.3 is now available to all GLM Coding Plan users", "The GLM-5.3 API is coming soon", "It uses the same base model as GLM-5.2 — all improvements come from post-training", "GLM-5.3 scores 84.5% on CyberGym, slightly outperforming Mythos 5 at 83.8% and GPT-5.6 Sol at 83.6%" — OPENABLE corroborating allowlisted primary)
+  - https://huggingface.co/api/models?author=zai-org (checked 14 Aug — newest zai-org repo is `GLM-5.2` (16 Jun); NO `GLM-5.3` repo → confirms open weights not yet public)
 
 ### T17 — OpenAI inference-speed / Cerebras partnership (Ultrafast tier)
 - **Status:** developing (opened 13 Aug 2026)

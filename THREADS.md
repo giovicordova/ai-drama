@@ -1,4 +1,4 @@
-# Tracked Threads — last updated 2026-11-03 13:00 Europe/Rome
+# Tracked Threads — last updated 2026-11-03 20:00 Europe/Rome
 
 Continuity state for the AI/LLM briefing. Read first, rewritten last, on every run
 (including skips). Committed to the repo so cloud runs share memory. Keep it small —
@@ -15,6 +15,16 @@ Fields per thread:
 ---
 
 ## Active threads
+
+### T31 — SemiAnalysis GDPx benchmark (general-agentic frontier index across high-value domains)
+- **Status:** developing (opened 3 Nov 2026; launch POSTED 3 Nov 20:00)
+- **Last material update:** 2026-11-02 (SemiAnalysis published GDPx — a general-agentic benchmark across 11 "most valuable domains for frontier intelligence"; "a true frontier-level benchmark: even the best model scores just 12%"; leaderboard: Claude Opus 5.5 #1 12.0% / Gemini 4 Carbon 10.9% / GPT-6.1 Sol 8.4% / Claude Sonnet 5.5 8.2% / Gemini 4 Argon 7.3%)
+- **Last POSTED:** 2026-11-03 20:00 (POST — Research firm SemiAnalysis launched GDPx, a new benchmark for frontier AI across the domains it rates most valuable; even the best model scores just 12%. Quote: "Our finance and legal tasks are so challenging that basically every model scores exactly 0." Reaction: "The kind of benchmark I'd rather follow — plenty of headroom left to climb." — the single-URL article names no model at 12%, so the Opus-5.5-#1-at-12.0% leaderboard detail was kept OUT.)
+- **One-line state:** On 2 Nov 2026 SemiAnalysis published **GDPx** ("GDPx is a benchmark that covers the most valuable domains for frontier intelligence") — a general-agentic benchmark (models taking multi-step, tool-using actions) across **11 domains** (chip design, cybersecurity, biology, finance, legal, quant trading, recursive self-improvement, hardware design, materials science, alignment, software engineering), built with domain-specialist partners and pitched as a harder successor to OpenAI's GDPval ("woefully inadequate"). **"A true frontier-level benchmark: even the best model scores just 12%."** Leaderboard (`gdpx.semianalysis.com`): **Claude Opus 5.5 #1 at 12.0%** ($51.41/task), **Gemini 4 Carbon 10.9%** ($16.29/task), GPT-6.1 Sol 8.4%, Claude Sonnet 5.5 8.2%, Gemini 4 Argon 7.3%; finance & legal tasks so hard "basically every model scores exactly 0"; some models' scores (Opus 5.5, GPT-6 Astra) lowered by safety classifiers in cyber/biology/alignment. SemiAnalysis = named-specialist publisher, so it is the primary for its own benchmark (parallel to Artificial Analysis / T30). Distinct from T30 (AA Intelligence Index) and T4 (SemiAnalysis's InferenceX serving benchmark).
+- **Watch for:** a GDPx leaderboard move changing the #1 (a model overtaking Opus 5.5's 12.0%); a new frontier model scored on GDPx; a GDPx methodology/domain expansion or v1.x update; an independent/third-party reaction or a lab citing GDPx; or SemiAnalysis quantifying the safety-classifier "sandbagging" effect. Don't re-post the 2 Nov GDPx launch / 11-domains / "even the best model scores just 12%" / Opus-5.5-#1-12.0% / finance-legal-0% framing.
+- **Receipts:**
+  - https://newsletter.semianalysis.com/p/gdpx-measuring-frontier-model-capabilities (2 Nov — SemiAnalysis "GDPx: Measuring Frontier Model Capabilities Across the Most Valuable Domains": "GDPx is a benchmark that covers the most valuable domains for frontier intelligence"; "GDPx is a true frontier-level benchmark: even the best model scores just 12%"; "Our goal with GDPx is to create the world's best benchmark for general agentic capabilities"; "Our finance and legal tasks are so challenging that basically every model scores exactly 0" — OPENABLE allowlisted named-specialist primary (free, not paywalled; read this session), POST 3 Nov 20:00, single-URL source)
+  - https://gdpx.semianalysis.com/ (GDPx leaderboard: Claude Opus 5.5 #1 12.0% $51.41/task, Gemini 4 Carbon 10.9% $16.29/task, GPT-6.1 Sol 8.4%, Claude Sonnet 5.5 8.2%, Gemini 4 Argon 7.3% — OPENABLE specialist primary; carries the model-by-model scores, NOT the single-URL post source)
 
 ### T30 — Independent-benchmark methodology (Artificial Analysis Intelligence Index v5 / Progress Index)
 - **Status:** developing (opened 28 Oct 2026; first standing-changing v5 re-score CROSSED 28 Oct 20:00 — cross-ref T19)
